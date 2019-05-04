@@ -1,6 +1,8 @@
 ## Challenge
 Solutions to the challenges by Headstorm
 
+I enjoyed working on these problems, I think this is a very innovative way to screen candidates. Has been a definitely unique experience. I have had very limited exposure with REST APIs, and this challenge helped me learn more about it. The one I enjoyed specifically working on was the 3rd database question. 
+
 ### For solution 2:
 I deployed the .war file on Tomcat, and tested the APIs using Postman.
 Calls made to /TestProject/rest/data
