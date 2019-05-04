@@ -15,15 +15,15 @@ query = ""
 with open("db.txt") as data:
 	d = json.loads(data.read())
 	for r in d:
-		rid = r["record_id"]
-		name = r["name"]
-		cellphone = r["cellphone"]
-		workphone = r["workphone"]
-		email = r["email"]
-		address = r["address"]
-		b_order = r["Basicorder"]
-		aorder = r["Advancedorder"]
-		pplan = r["protection"]
+		rid = r["Record ID"]
+		name = r["Name"]
+		cellphone = r["Cell Phone"]
+		workphone = r["Work Phone"]
+		email = r["Email"]
+		address = r["Address"]
+		b_order = r["Basic Widget Order"]
+		aorder = r["Advanced Widget Order"]
+		pplan = r["Protection Plan"]
 
 		if email not in ids.keys():
 			ids[email] = i
